@@ -2,7 +2,7 @@
 # Displays informtation about subdomains.
 
 # uncomment for debugging purposes.
-set -x
+#set -x
 
 # for the checker to work please remove the colors.
 
@@ -33,4 +33,3 @@ if [ $# -eq 1 ]; then
 elif [ $# -eq 2 ]; then
 	dig_cmd "$domain" "$sub"
 fi
-
